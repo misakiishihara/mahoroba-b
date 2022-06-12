@@ -26,9 +26,9 @@ app.use("/api/posts", postsRoute);
 
 
 
-// app.get("/", (req, res) => {
-//     res.send("hello express");
-// })
+app.get("/", (req, res) => {
+    res.send("hello express");
+})
 
 // app.get("/users", (req, res) => {
 //     res.send("users express");
