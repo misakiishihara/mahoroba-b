@@ -1,0 +1,17 @@
+{
+  "name": "mahoroba",
+  "version": "1.0.0",
+  "description": "Mahoroba is an ancient Japanese word describing a far-off land full of bliss and peace.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "misaki ishihara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}
