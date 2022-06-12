@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const app = express();
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
@@ -15,6 +16,7 @@ mongoose.connect(process.env.MONGOURL).then(() => {
 });
 
 //middleware
+app.use(express.json());
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postsRoute);

@@ -4,7 +4,7 @@
   "description": "Mahoroba is an ancient Japanese word describing a far-off land full of bliss and peace.",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "misaki ishihara",
   "license": "ISC",
